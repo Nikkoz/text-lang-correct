@@ -1,10 +1,10 @@
 <?php
 
-namespace B1rdex\Text;
+namespace Nikkoz\Text;
 
 use LogicException;
-use B1rdex\Text\Util\UTF8;
-use B1rdex\Text\Util\ReflectionTypeHint;
+use Nikkoz\Text\Util\UTF8;
+use Nikkoz\Text\Util\ReflectionTypeHint;
 
 /**
  * @link     http://code.google.com/p/php-lang-correct/

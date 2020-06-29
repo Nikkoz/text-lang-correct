@@ -1,6 +1,6 @@
 <?php
 
-namespace B1rdex\Text\Util;
+namespace Nikkoz\Text\Util;
 
 use ReflectionMethod;
 
