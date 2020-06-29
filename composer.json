@@ -1,20 +1,21 @@
 {
-    "name": "b1rdex/text-lang-correct",
+    "name": "Nikkoz/text-lang-correct",
+    "description": "Keyboard layout error correction",
     "license": "MIT",
     "require": {
         "php": "^7.3"
     },
     "autoload": {
         "psr-4": {
-            "B1rdex\\Text\\": "src/"
+            "Nikkoz\\src\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "B1rdex\\Text\\Tests\\": "tests"
+            "Nikkoz\\Tests\\": "tests"
         }
     },
     "require-dev": {
-        "phpunit/phpunit": "~6"
+        "phpunit/phpunit": "^6.5"
     }
 }
