@@ -1,5 +1,5 @@
 {
-    "name": "Nikkoz/text-lang-correct",
+    "name": "nikkoz/text-lang-correct",
     "description": "Keyboard layout error correction",
     "license": "MIT",
     "require": {
