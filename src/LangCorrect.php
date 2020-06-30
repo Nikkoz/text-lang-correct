@@ -3020,7 +3020,7 @@ class LangCorrect
             $suggestions['en1'] = $word;
             $suggestions['tt1'] = strtr($word, $this->table_flip[1]);
         } #если найдено слово только из русских букв; минимальная длина -- 4 буквы!
-        elseif (!empty($a[2]) && strlen($word) >= 8) {
+        elseif (!empty($a[2]) && strlen($word) >= $this->minLength) {
             if (($this->mode & self::KEYBOARD_LAYOUT) === 0) {
                 return $word;
             }
