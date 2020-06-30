@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Nikkoz\Text\Tests;
+namespace Nikkoz\TextLangCorrect\Tests;
 
-use Nikkoz\Text\LangCorrect;
+use Nikkoz\TextLangCorrect\LangCorrect;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Nikkoz\Text\LangCorrect
+ * @covers \Nikkoz\TextLangCorrect\LangCorrect
  */
 class LangCorrectTest extends TestCase
 {

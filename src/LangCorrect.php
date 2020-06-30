@@ -3006,7 +3006,7 @@ class LangCorrect
                 $suggestions['en1'] = $s;
             }
         } #если найдено слово только из латинских букв; минимальная длина -- 4 буквы!
-        elseif (!empty($a[1]) && strlen($word) >= 4) {
+        elseif (!empty($a[1]) && strlen($word) >= $this->minLength) {
             if (($this->mode & self::KEYBOARD_LAYOUT) === 0) {
                 return $word;
             }
