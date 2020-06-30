@@ -1,10 +1,10 @@
 <?php
 
-namespace Nikkoz\Text;
+namespace Nikkoz\TextLangCorrect;
 
 use LogicException;
-use Nikkoz\Text\Util\UTF8;
-use Nikkoz\Text\Util\ReflectionTypeHint;
+use Nikkoz\TextLangCorrect\Util\UTF8;
+use Nikkoz\TextLangCorrect\Util\ReflectionTypeHint;
 
 /**
  * @link     http://code.google.com/p/php-lang-correct/

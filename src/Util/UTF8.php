@@ -1,6 +1,6 @@
 <?php /** @noinspection UnqualifiedReferenceInspection */
 
-namespace Nikkoz\Text\Util;
+namespace Nikkoz\TextLangCorrect\Util;
 
 use Collator;
 

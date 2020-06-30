@@ -7,12 +7,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Nikkoz\\Text\\src\\": "src/"
+            "Nikkoz\\TextLangCorrect\\src\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Nikkoz\\Text\\Tests\\": "tests"
+            "Nikkoz\\TextLangCorrect\\Tests\\": "tests"
         }
     },
     "require-dev": {
